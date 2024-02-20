@@ -3,6 +3,12 @@
 
 @section('content')
     <div class="container">
+        <a href="{{ url('/') }}" class="ui animated button" tabindex="0">
+            <div class="visible content">Retour</div>
+            <div class="hidden content">
+                <i class="left arrow icon"></i>
+            </div>
+        </a>
         <div class="row justify-content-center mt-5">
             <div class="col-md-8">
                 <div class="card">

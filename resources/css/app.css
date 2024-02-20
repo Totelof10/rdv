@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'icons';
+    src: url('/node_modules/semantic-ui-css/themes/default/assets/fonts/icons.woff2') format('woff2'),
+         url('/node_modules/semantic-ui-css/themes/default/assets/fonts/icons.woff') format('woff'),
+         url('/node_modules/semantic-ui-css/themes/default/assets/fonts/icons.ttf') format('truetype');
+}

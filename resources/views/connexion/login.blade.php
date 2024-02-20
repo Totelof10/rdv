@@ -2,6 +2,13 @@
 
 @section('content')
     <div class="container mt-5">
+        <a href="{{ url('/') }}" class="ui animated button" tabindex="0">
+            <div class="visible content">Retour</div>
+            <div class="hidden content">
+                <i class="left arrow icon"></i>
+            </div>
+        </a>
+
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card shadow">

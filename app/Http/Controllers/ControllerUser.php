@@ -34,7 +34,7 @@ class ControllerUser extends Controller
 
         $user->save();
 
-        return redirect('/dashboard/dsic')->with('success','Ajout reussi');
+        return redirect('/')->with('success','Ajout reussi');
 
     }
 

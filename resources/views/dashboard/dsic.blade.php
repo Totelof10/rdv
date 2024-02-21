@@ -21,7 +21,10 @@
     </div>
 </nav>
 <h2>Les utilisateurs</h2>
-<a href="{{route('inscription.inscrire')}}" class="btn btn-primary m-2">Ajouter un nouveau utilisateur</a>
+<a href="{{route('inscription.ajout')}}" class="btn btn-primary m-2">
+    Ajouter un nouveau utilisateur
+</a>
+
     <table class="table">
         <thead>
             <tr>
